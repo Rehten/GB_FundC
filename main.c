@@ -64,7 +64,7 @@ void calculate(enum Elems index, double *u0, double *ui, double *r1, double *r2)
             printf("\nR2 равно %7.2lf\n\n", *u0);
             return;
         default:
-            printf("Выбранный Вами вариант отсутствует");
+            printf("Выбранный Вами вариант отсутствует\n");
     }
 }
 
